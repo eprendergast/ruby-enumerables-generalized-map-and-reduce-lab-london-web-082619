@@ -16,5 +16,5 @@ def reduce(source_array, starting_point = 0)
     running_total = yield(source_array[i], running_total)
     i += 1
   end
-  return running_total + starting_point
+  return running_total
 end

@@ -24,4 +24,4 @@ def reduce(source_array, starting_point = 0)
 
 end
 
-reduce(source_array){|memo, n| memo && n})
+# reduce(source_array){|memo, n| memo && n})

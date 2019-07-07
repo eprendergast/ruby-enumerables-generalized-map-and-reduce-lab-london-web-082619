@@ -21,5 +21,4 @@ def reduce(source_array, starting_point = 0)
   else
     return running_total
   end
-
 end

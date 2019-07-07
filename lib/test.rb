@@ -5,6 +5,7 @@ def reduce(source_array, starting_point = 0)
     yield(running_total, source_array[i])
   end
 end
+end
 
 source_array = [1,2,3]
 

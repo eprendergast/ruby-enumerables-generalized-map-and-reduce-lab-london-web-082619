@@ -18,5 +18,3 @@ def reduce(source_array, starting_point = 0)
   end
   return running_total
 end
-
-# reduce(source_array, starting_point){|memo, n| memo + n}

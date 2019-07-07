@@ -16,12 +16,11 @@ def reduce(source_array, starting_point = 0)
     running_total = yield(source_array[i], running_total)
     i += 1
   end
-  if true
-      return running_total
+  if running_total == nil
+      return false
   else
-    return false
+    return running_total
   end
 
 end
 
-# reduce(source_array){|memo, n| memo && n})
